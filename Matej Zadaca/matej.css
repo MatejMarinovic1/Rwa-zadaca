@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:cyan;
+}
+.blok{
+    width:850px;
+    height:425px;
+    background-color:red;
+    position:absolute;
+    margin-top:150px;
+    margin-left:275px;
+
+}
+.zaglavlje1{
+    
+    height:424px;
+    width:150px;
+    position:absolute;
+}
+.obruc{
+    border:yellow solid 1px;
+    width:151px;
+    height: 100px;
+}
+.Logo{
+    width: 70px;
+    height:70px;
+    position:absolute;
+    margin-top:12px;
+    margin-left:10px;
+}
+.zaglavlje2{
+    border:none;
+    width: 699px;
+    height:424px;
+    margin-left:151px;
+    position:fixed;
+    border:solid yellow 1px;
+}
+.naslov{
+    margin-left:20px;
+    margin-top:10px;
+    margin-right:400px;
+    border-width:75px;
+    height:70px;
+    border: purple solid 3px;
+    text-align: center;
+}
+table, tr,td, th{
+    border:1px solid;
+}
+th{
+    letter-spacing: 2px;
+}
+table{
+    margin-left:125px;
+    margin-top: 50px;
+    width:400px;
+    text-align: center;
+    background-color:orange;
+}
+ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 151px;
+    background-color: red;
+   
+}
+ol  {
+    border:solid 1px yellow;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ol:hover {
+    background-color: orange;
+    color:black;
+}
+.alink {
+    background-color: #36f446;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    background-color: red;
+}
+p{
+    position:absolute;
+    text-decoration: none;
+    margin-left:520px;
+    margin-top:25px;
+}
+.nlink{
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+@media (max-width: 400px) {
+    body{
+      flex-direction: column;
+    }
+  }
